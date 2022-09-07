@@ -1,0 +1,6 @@
+# ignore the secrets file
+config/secrets.yaml
+
+.vscode/
+.idea/
+research
