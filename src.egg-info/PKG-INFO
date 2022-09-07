@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc dl pipeline tensorflow demo
+Home-page: https://github.com/DARSHANH-analytics/DVC_DL_Tensorflow_demo.git
+Author: DARSHANH-analytics
+Author-email: darshan8983@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
 # DVC - DL - TF - AIOPS demo
 
 download data --> [source](https://drive.google.com/drive/u/5/folders/1tz4IOoJKdi999IRdqJY04VOifyllRzj1
@@ -32,5 +44,3 @@ touch src/__init__.py src/utils/__init__.py param.yaml dvc.yaml config/config.ya
 pip install -e .
 ```
 
-# outside data folder is created inside data folder but this data will be received from outside say aws buckets ...etc. 
-# stage_01_load_save has code to copy outside data to project data folder even though outside data is inside data folder, in ideal case outside data folder will not be there so code added considering data will be received from outside

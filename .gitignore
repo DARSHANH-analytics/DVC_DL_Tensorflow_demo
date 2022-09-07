@@ -4,3 +4,5 @@ config/secrets.yaml
 .vscode/
 .idea/
 research
+
+data/*
