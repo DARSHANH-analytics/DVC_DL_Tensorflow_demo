@@ -20,7 +20,7 @@ def prepare_model(model,CLASSES,freeze_all,freeze_till,learning_rate):
         for layers in model.layers:
             layers.trainable=False
     if (freeze_till is not None) and (freeze_till>0):
-        for layers in model.layers[:freeze_till]:
+        for layers in model.layers[:-freeze_till]:
             layers.trainable=False
     
     # Add our fully connected layers

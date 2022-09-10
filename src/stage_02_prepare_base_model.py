@@ -1,5 +1,5 @@
 from src.utils.all_utils import read_yaml, create_directory
-from src.utils.model import get_VGG_16_model,prepare_model
+from src.utils.models import get_VGG_16_model,prepare_model
 import argparse
 import os
 import logging
@@ -35,7 +35,7 @@ def prepare_base_model(config_path,params_path):
         freeze_till=None,
         learning_rate=params["LEARNING_RATE"]
     )
-    
+
     updated_base_model_path = os.path.join(
         base_model_dir_path,
         artifacts["UPDATED_BASE_MODEL_NAME"])
