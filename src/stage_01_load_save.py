@@ -5,6 +5,7 @@ import os
 import shutil # this package to copy the data from one location to other
 from tqdm import tqdm # this package gives a progress bar
 import logging
+
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
