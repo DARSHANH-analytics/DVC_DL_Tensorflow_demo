@@ -1,0 +1,4 @@
+outs:
+- md5: a20094628b762fa19a26d95b9c08e623
+  size: 1144
+  path: stage_04_train.py

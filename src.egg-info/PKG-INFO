@@ -44,3 +44,7 @@ touch src/__init__.py src/utils/__init__.py param.yaml dvc.yaml config/config.ya
 pip install -e .
 ```
 
+# outside data folder is created inside data folder but this data will be received from outside say aws buckets ...etc. 
+# stage_01_load_save has code to copy outside data to project data folder even though outside data is inside data folder, in ideal case outside data folder will not be there so code added considering data will be received from outside
+
+
